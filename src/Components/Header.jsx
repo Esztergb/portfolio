@@ -27,18 +27,42 @@ function Header() {
 
       <div>
         {/* <nav> */}
-        <ul className="flex">
+        <ul className="flex space-x-8">
           <li>
-            <Link to="/">Home</Link>
+            <Link
+              to="/"
+              className="text-black cursor-pointer 
+                hover:underline font-medium"
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/Skills">Skills</Link>
+            <Link
+              to="/Skills"
+              className="text-black cursor-pointer 
+                hover:underline font-medium"
+            >
+              Skills
+            </Link>
           </li>
           <li>
-            <Link to="/Project">Project</Link>
+            <Link
+              to="/Project"
+              className="text-black cursor-pointer 
+                hover:underline font-medium"
+            >
+              Project
+            </Link>
           </li>
           <li>
-            <Link to="/Contact">Contact</Link>
+            <Link
+              to="/Contact"
+              className="text-black cursor-pointer 
+                hover:underline font-medium"
+            >
+              Contact
+            </Link>
           </li>
         </ul>
         {/* </nav> */}
