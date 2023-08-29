@@ -20,7 +20,7 @@ function Header() {
       },
     ];
   return (
-    <div className="flex items-center w-screen justify-between border-b-[1px]">
+    <div className="flex items-center fixed w-screen justify-between border-b-[1px] bg-white">
       <div className="w-[90px] h-[90px] bg-black flex justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ function Header() {
           </div>
         ))}
       </div>
-      <div className="w-[90px] h-[90px] bg-red-500 flex justify-center items-center">
+      <div className="w-[90px] h-[90px] bg-pink-500 flex justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
