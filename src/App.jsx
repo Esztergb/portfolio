@@ -1,34 +1,28 @@
-import { useState } from 'react'
 import './App.css'
+import { Link, Route, Routes } from 'react-router-dom'
 import Header from './Components/Header'
 import SideBar from './Components/SideBar'
-import ProfilePic from './Components/ProfilePic'
-import Introduction from './Components/Introduction'
-import About from './Components/About'
-import Services from './Components/Services'
-import ProgressBar from './Components/ProgressBar'
+import Home from './Components/Pages/Home'
+import Skills from "./Components/Pages/Skills";
+import Projects from "./Components/Pages/Projects";
+import Contact from "./Components/Pages/Contact";
+
 
 function App() {
   return (
-    <div className="w-screen">
-      <Header />
-      <SideBar />
-      <div
-        className="ml-[90px]  
-      grid grid-cols-1 md:grid-cols-3
-      "
-      >
-        <div className="col-span-2 p-5 mt-[90px]">
-          <Introduction />
-          <About />
-          <Services />
-        </div>
-        <div className="hidden md:block">
-          <ProgressBar />
-          <ProfilePic />
-        </div>
+    <>
+      <div className="w-screen">
+        <Header />
+        <SideBar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
       </div>
-    </div>
+    </>
   );
 }
 
