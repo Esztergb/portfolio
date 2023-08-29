@@ -24,11 +24,12 @@ export const projects = [
     link: "https://morning-headland-11001-5962299a3945.herokuapp.com/",
   },
   {
-    title: "Note Taker",
+    title: "SVG Logo Generator",
     subtitle: "Express and Heroku",
-    description: "Note Taker that can be used to write and save notes.",
-    image: "./notetaker.gif",
-    link: "https://github.com/Esztergb/employee-tracker",
+    description:
+      "Generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. Shape and text colors can be chosen using color keywords or hexadecimal numbers.",
+    image: "./svg.png",
+    link: "https://github.com/Esztergb/SVG-logo-maker",
   },
 ];
 

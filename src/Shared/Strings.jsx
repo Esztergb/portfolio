@@ -1,6 +1,6 @@
 export default {
   ABOUT_HEADING:
-    "Hi! My name is Eszter, I'm a Full Stack Developer based in San Diego, CA",
+    "I'm a Full Stack WebDeveloper based in San Diego, CA",
   ABOUT_DESC:
     "Logical and result-driven full stack developer dedicated to building and optimizing user-focused websites and aplications.",
 

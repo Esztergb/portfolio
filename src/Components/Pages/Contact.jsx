@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <section className="">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap ">
-        <div className="lg:w-2/3 md:w-1/2 bg-pink-200 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative mt-[70px] ml-[90px]">
+        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative mt-[70px] ml-[90px]">
           <iframe
             width="100%"
             height="100%"
@@ -78,7 +78,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-pink-200 rounded border border-pink-700 focus:border-y-blue-700 focus:ring-1 focus:ring-blue-900 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-500 rounded border border-pink-700 focus:border-black focus:ring-1 focus:ring-black text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -90,7 +90,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-pink-200 rounded border border-pink-700 focus:border-y-blue-700 focus:ring-1 focus:ring-blue-900 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-500 rounded border border-pink-700 focus:border-black focus:ring-1 focus:ring-black text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -104,7 +104,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-pink-200 rounded border border-pink-700 focus:border-y-blue-700 focus:ring-1 focus:ring-blue-900 text-base outline-none text-gray-600 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-500 rounded border border-pink-700 focus:border-black focus:ring-1 focus:ring-black text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>

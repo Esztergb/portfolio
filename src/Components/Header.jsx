@@ -32,7 +32,7 @@ function Header() {
             <Link
               to="/"
               className="text-black cursor-pointer 
-                hover:underline font-medium"
+                hover:text-pink-500 font-medium"
             >
               Home
             </Link>
@@ -41,7 +41,7 @@ function Header() {
             <Link
               to="/Skills"
               className="text-black cursor-pointer 
-                hover:underline font-medium"
+                hover:text-pink-500 font-medium"
             >
               Skills
             </Link>
@@ -50,7 +50,7 @@ function Header() {
             <Link
               to="/Projects"
               className="text-black cursor-pointer 
-                hover:underline font-medium"
+                hover:text-pink-500 font-medium"
             >
               Projects
             </Link>
@@ -59,12 +59,18 @@ function Header() {
             <Link
               to="/Contact"
               className="text-black cursor-pointer 
-                hover:underline font-medium"
+                hover:text-pink-500 font-medium"
             >
               Contact
             </Link>
           </li>
-          <a href="./resume.pdf" className="text-pink-500 font-semibold underline"> RESUME</a>
+          <a
+            href="./resume.pdf"
+            className="text-pink-500 font-semibold underline hover:text-purple-900"
+          >
+            {" "}
+            RESUME
+          </a>
         </ul>
         {/* </nav> */}
         {/* {menu.map((item) => (
