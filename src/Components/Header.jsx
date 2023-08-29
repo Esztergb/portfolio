@@ -1,28 +1,11 @@
 import React from "react";
 // import "./App.css";
 
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function Header() {
-  // const menu = [
-  //   {
-  //     id: 1,
-  //     name: "Home",
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Skills",
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Project",
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "Contact",
-  //   },
-  // ];
+  
   return (
     <div className="flex items-center fixed w-screen justify-between border-b-[1px] bg-white">
       <div className="w-[90px] h-[90px] bg-black flex justify-center items-center">
@@ -42,23 +25,23 @@ function Header() {
         </svg>
       </div>
 
-      <div className="hidden md:flex gap-14">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/Skills">Skills</Link>
-            </li>
-            <li>
-              <Link to="/Project">Project</Link>
-            </li>
-            <li>
-              <Link to="/Contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+      <div>
+        {/* <nav> */}
+        <ul className="flex">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Skills">Skills</Link>
+          </li>
+          <li>
+            <Link to="/Project">Project</Link>
+          </li>
+          <li>
+            <Link to="/Contact">Contact</Link>
+          </li>
+        </ul>
+        {/* </nav> */}
         {/* {menu.map((item) => (
           <div className="cursor-pointer hover:underline font-medium">
             <h2>{item.name}</h2>
