@@ -4,7 +4,7 @@ import { skills } from "../../Shared/data";
 
 export default function Skills() {
   return (
-    <section id="skills">
+    
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20 mt-[70px]">
           {/* <ChipIcon className="w-10 inline-block mb-4" /> */}
@@ -25,6 +25,6 @@ export default function Skills() {
           ))}
         </div>
       </div>
-    </section>
+  
   );
 }
