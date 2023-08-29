@@ -64,6 +64,7 @@ function Header() {
               Contact
             </Link>
           </li>
+          <a href="./resume.pdf" className="text-pink-500 font-semibold underline"> RESUME</a>
         </ul>
         {/* </nav> */}
         {/* {menu.map((item) => (

@@ -6,7 +6,7 @@ export default function Projects() {
     <section className="text-gray-400 body-font ml-[90px]">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20 mt-[70px] ">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
             Apps I've Built
           </h1>
         </div>
