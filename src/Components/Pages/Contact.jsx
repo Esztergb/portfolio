@@ -104,7 +104,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-500 rounded border border-pink-700 focus:border-black focus:ring-1 focus:ring-black text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-500 rounded border border-pink-700 focus:border-black focus:ring-1 focus:ring-black  h-32 text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
