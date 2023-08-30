@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Header() {
   
   return (
-    <div className="flex items-center fixed w-screen justify-between border-b-[1px] bg-white">
+    <div className="flex items-center fixed w-screen justify-between border-b-[1px] bg-white shadow dark:bg-gray-800">
       <div className="w-[90px] h-[90px] bg-black flex justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -28,34 +28,34 @@ function Header() {
       <div>
         {/* <nav> */}
         <ul className="hidden md:flex gap-14">
-          <li>
+          <li className="hover:scale-110">
             <Link
               to="/"
               className="text-black cursor-pointer 
-                hover:text-pink-500 font-medium"
+                hover:text-pink-500 hover:scale-110 font-medium"
             >
               Home
             </Link>
           </li>
-          <li>
+          <li className="hover:scale-110">
             <Link
               to="/Skills"
               className="text-black cursor-pointer 
-                hover:text-pink-500 font-medium"
+                hover:text-pink-500 hover:scale-110 font-medium"
             >
               Skills
             </Link>
           </li>
-          <li>
+          <li className="hover:scale-110">
             <Link
               to="/Projects"
               className="text-black cursor-pointer 
-                hover:text-pink-500 font-medium"
+                hover:text-pink-500 hover:scale-110 font-medium"
             >
               Projects
             </Link>
           </li>
-          <li>
+          <li className="hover:scale-110">
             <Link
               to="/Contact"
               className="text-black cursor-pointer 
@@ -66,7 +66,7 @@ function Header() {
           </li>
           <a
             href="./resume.pdf"
-            className="text-pink-500 font-semibold underline hover:text-purple-900"
+            className="text-pink-500 font-semibold underline hover:text-purple-900 hover:scale-110"
           >
             {" "}
             RESUME

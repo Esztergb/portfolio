@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function SideBar() {
   return (
-    <div className="w-[90px] h-screen border-r-[1px] fixed flex flex-col justify-around items-center">
+    <div className="w-[90px] h-screen border-r-[1px] fixed flex flex-col justify-around items-center shadow dark:bg-gray-800">
       <Link
         to="/"
         className="-rotate-90 tracking-widest mt-20 text-black cursor-pointer hover:text-pink-500 hover:scale-110"
