@@ -31,6 +31,22 @@ export const projects = [
     image: "./svg.png",
     link: "https://github.com/Esztergb/SVG-logo-maker",
   },
+  {
+    title: "React Portfolio",
+    subtitle: "Vite, React and Tailwind",
+    description:
+      "My portfolio apllication uses Tailwind for styling and React Router to handle pages",
+    image: "./Screenshot.png",
+    link: "https://github.com/Esztergb/portfolio",
+  },
+  {
+    title: "SVG Logo Generator",
+    subtitle: "Express, MySQL, Sequelize and Insomnia",
+    description:
+      "Modifed the starter code to create an application called E Commerce. Given the starter code of a working Express.js API, code was configured to use Sequelize to interact with a MySQL database.",
+    image: "./ecomm.png",
+    link: "https://github.com/Esztergb/e-commerce-back-end",
+  },
 ];
 
 export const testimonials = [
