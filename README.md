@@ -20,11 +20,11 @@ AS A newly graduated student, I WANT to be able to promote my work and resume, S
 ## Description 
 Learn more about me, see my latest projects, and download my resume with work and education experiences. 
 
-I want to hear from you! Send me a message via the contact or form or email me at eszterbarbuscia@gmail.com. 
+I want to hear from you! Send me a message via the contact form or email me at eszterbarbuscia@gmail.com. 
 
 <div align="center">
 
-![Example screenshot](./src/assets/Screenshot%202023-08-28%20at%207.19.29%20PM.png)
+![Example screenshot](./public/Screenshot.png)
 
 </div>
 
@@ -38,7 +38,7 @@ I want to hear from you! Send me a message via the contact or form or email me a
   
 ## Installation 
 
-* Start server with command `npm start`.
+* Start server with command `npm run dev`.
 
 ## License
 This project is covered under the MIT licence.  
