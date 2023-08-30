@@ -34,7 +34,7 @@ function Header() {
               className="text-black cursor-pointer 
                 hover:text-pink-500 hover:scale-110 font-medium"
             >
-              Home
+              About Me
             </Link>
           </li>
           <li className="hover:scale-110">
