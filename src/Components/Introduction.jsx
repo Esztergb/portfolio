@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 function Introduction() {
   return (
-    <div className="flex justify-center flex-col items-center">
+    <div className="flex justify-center flex-col items-center dark:bg-indigo-800">
       <div className="h-[120px] border-r-[1px] mt-[-20px]" />
       <div className="w-[5px] h-[5px] rounded-full bg-purple-800"></div>
       <h2 className="mt-5 text-black font-medium text-[18px] tracking-widest">

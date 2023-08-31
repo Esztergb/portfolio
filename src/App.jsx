@@ -1,12 +1,28 @@
 import './App.css'
-import { Link, Route, Routes } from 'react-router-dom'
-import Header from './Components/Header'
-import SideBar from './Components/SideBar'
-import Home from './Components/Pages/Home'
+import { Route, Routes } from 'react-router-dom'
+import Header from './Components/Header';
+import SideBar from './Components/SideBar';
+import Home from './Components/Pages/Home';
 import Skills from "./Components/Pages/Skills";
 import Projects from "./Components/Pages/Projects";
 import Contact from "./Components/Pages/Contact";
-import Footer from './Components/Footer'
+import Footer from './Components/Footer';
+// import DarkMode from './DarkMode';
+
+// // dark mode
+// import { ReactComponents as Sun } from './Components/DarkMode/Sun.svg';
+// import { ReactComponents as Moon } from "./Components/DarkMode/Moon.svg";
+// import "./Components/DarkMode/DarkMode.css";
+
+// const DarkMode = () => {
+//   const setDarkMode = () => {
+//     document.querySelector('body').setAttribute('data-theme', 'dark')
+//   }
+
+//   const setLightMode = () => {
+//     document.querySelector("body").setAttribute("data-theme", "light");
+//   };
+// }
 
 
 function App() {

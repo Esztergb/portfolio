@@ -72,13 +72,7 @@ function Header() {
             RESUME
           </a>
         </ul>
-        {/* </nav> */}
-        {/* {menu.map((item) => (
-          <div className="cursor-pointer hover:underline font-medium">
-            <h2>{item.name}</h2>
-          </div>
-        ))} */}
-      </div>
+       </div>
 
       <div className="w-[90px] h-[90px] bg-pink-500 flex justify-center items-center">
         <a href="mailto:gubiscom@yahoo.com">
