@@ -32,12 +32,12 @@ export const projects = [
     link: "https://github.com/Esztergb/SVG-logo-maker",
   },
   {
-    title: "React Portfolio",
-    subtitle: "Vite, React and Tailwind",
+    title: "Thyme for Lunch",
+    subtitle: "MONGO app",
     description:
-      "My portfolio apllication uses Tailwind for styling and React Router to handle pages",
-    image: "./Screenshot.png",
-    link: "https://github.com/Esztergb/portfolio",
+      "The Thyme-for-lunch website was created to search for any recipe and add it to your favorites list. You can add your favorite recipes to a weekly calendar to plan out your meals for the week in order to have all the ingredients from your planned meals added to a grocery list so that you can easily plan out your next grocery run.",
+    image: "./thymeforlunch.png",
+    link: "https://thyme-for-lunch-ca35ba4e7fee.herokuapp.com/",
   },
   {
     title: "SVG Logo Generator",
