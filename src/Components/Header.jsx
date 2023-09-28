@@ -64,13 +64,6 @@ function Header() {
               Contact
             </Link>
           </li>
-          <a
-            href="./resume.pdf"
-            className="text-pink-500 font-semibold underline hover:text-purple-900 hover:scale-110"
-          >
-            {" "}
-            RESUME
-          </a>
         </ul>
        </div>
 
