@@ -16,7 +16,7 @@ function Introduction() {
         BARBUSCIA
       </h2>
       <img
-        src="./prof.jpeg"
+        src="./profile.jpeg"
         className="w-[160px] h-[160px] bg-pink-200 p-7 rounded-full mt-7"
       />
     </div>
