@@ -1,7 +1,7 @@
 # <span style="color:gold">My React Portfolio</span>
 <div align="center">
   
-  # [EszterBarbuscia.com](https://sweet-raindrop-b2daf8.netlify.app/)
+  # [EszterBarbuscia.com](https://eszterbarbuscia.com/)
     
   <a href="">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</a>
   <a href="">[![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en)</a>
